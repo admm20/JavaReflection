@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="168.0" prefWidth="387.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab.LayoutController">
+   <children>
+      <AnchorPane prefHeight="168.0" prefWidth="384.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Label layoutX="48.0" layoutY="49.0" text="Class name:" />
+            <TextField fx:id="classNameTextField" layoutX="118.0" layoutY="45.0" prefHeight="25.0" prefWidth="206.0" text="pl.test.lab.Rectangle" />
+            <Button fx:id="runButton" layoutX="158.0" layoutY="98.0" mnemonicParsing="false" onAction="#runButtonPressed" prefHeight="25.0" prefWidth="71.0" text="Run" />
+            <Button fx:id="exitButton" layoutX="253.0" layoutY="98.0" mnemonicParsing="false" onAction="#exitButtonPressed" prefHeight="25.0" prefWidth="71.0" text="Exit" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
